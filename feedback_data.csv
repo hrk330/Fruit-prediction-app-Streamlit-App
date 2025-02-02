@@ -1,0 +1,6 @@
+image_path,incorrect_label,correct_label
+4.jpeg,mango,apple
+4.jpeg,mango,Apple
+4.jpeg,mango,apple
+4.jpeg,mango,apple
+4.jpeg,mango,Apple
