@@ -1,9 +1,8 @@
 streamlit==1.26.0
-tensorflow==2.15.0
-numpy>=1.26.0,<2.0.0
+tensorflow==2.16.2  # Use latest TensorFlow compatible with Python 3.12
 pandas
 scikit-learn
 matplotlib
 seaborn
 joblib
-setuptools  # Fixes the "No module named 'distutils'" error
+setuptools  # Fixes "No module named 'distutils'" error
