@@ -1,8 +1,9 @@
 streamlit==1.26.0
-tensorflow==2.16.2  # Use latest TensorFlow compatible with Python 3.12
+tensorflow==2.16.2  # Use latest TensorFlow version for Python 3.12
 pandas
 scikit-learn
 matplotlib
 seaborn
 joblib
 setuptools  # Fixes "No module named 'distutils'" error
+pillow==10.2.0  # Precompiled version to avoid zlib issues
